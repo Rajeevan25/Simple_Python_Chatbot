@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "How are you?", "Hi there", "Hello there", "Hey there", "Greetings"],
+            "response": ["Hello!", "Hi, how can I assist you?", "Good to see you!", "Hello there!", "Hey, how can I help?", "Hi! What can I do for you?", "Welcome!", "Greetings!", "Nice to meet you!", "Hi, what’s up?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you", "Goodbye", "Take care", "Catch you later", "See you soon", "I’m leaving", "Farewell", "Talk to you later", "Later"],
+            "response": ["Goodbye!", "See you soon!", "Take care!", "Bye! Have a great day!", "Catch you later!", "Farewell!", "See you again!", "Have a good one!", "Take care, bye!", "Talk to you later!"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Many thanks", "Thanks so much", "Thanks for your help", "Much obliged", "Thank you kindly", "Thanks a million"],
+            "response": ["You're welcome!", "No problem!", "Glad I could help!", "Anytime!", "My pleasure!", "You're very welcome!", "Don’t mention it!", "Happy to help!", "It’s my pleasure!", "Always here for you!"],
+            "context": [""]
+        },
+        {
+            "tag": "help",
+            "patterns": ["I need help", "Can you help me?", "Help", "Please assist", "I need assistance", "Can you assist me?", "Support me", "I require help", "I’m stuck", "Can you give me a hand?"],
+            "response": ["Of course, what do you need help with?", "Sure, how can I assist?", "I’m here to help, tell me more.", "Let me know how I can help.", "Yes, I can assist. What do you need?", "I’ll do my best to help!", "What’s the issue? I’m here to help.", "Sure, what’s the problem?", "I’m happy to assist, let me know.", "What do you need support with?"],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What’s the weather?", "How’s the weather?", "Is it raining?", "What’s the forecast?", "Is it sunny today?", "Will it rain today?", "Is it cold outside?", "What’s the temperature?", "Weather update please", "Tell me about the weather"],
+            "response": ["The weather is great!", "It looks sunny.", "There’s a chance of rain.", "It’s quite cold outside.", "Expect a warm day today.", "It’s windy out there.", "You may need an umbrella.", "Check your local weather app for details.", "It’s cloudy today.", "Looks like a nice day."],
+            "context": [""]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What’s for dinner?", "What should I eat?", "Recommend a meal", "What’s good to eat?", "Suggest a restaurant", "I’m hungry", "Any food suggestions?", "Where can I eat?", "What’s for lunch?", "What’s a good snack?"],
+            "response": ["How about some pizza?", "Try a nice salad.", "What about a burger?", "You can make pasta.", "Have some fruits for a snack.", "How about sushi?", "Check out a local restaurant.", "Try something spicy today.", "You could bake a cake!", "How about some soup?"],
+            "context": [""]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Make me laugh", "Say something funny", "I need a joke", "Any jokes?", "Do you know jokes?", "Can you tell a joke?", "Entertain me", "Humor me", "Make me smile"],
+            "response": ["Why don’t skeletons fight each other? They don’t have the guts.", "What do you call cheese that isn’t yours? Nacho cheese.", "Why couldn’t the bicycle stand up? It was two tired.", "How do you organize a space party? You planet.", "Why did the scarecrow win an award? He was outstanding in his field.", "I told my computer I needed a break, and it gave me a KitKat.", "Why was the math book sad? It had too many problems.", "What do you call fake spaghetti? An impasta.", "Why don’t eggs tell jokes? They’d crack each other up.", "What do you call a bear with no teeth? A gummy bear."],
+            "context": [""]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["I want to travel", "Where should I go?", "Recommend a destination", "What’s a good vacation spot?", "Where can I visit?", "Travel ideas please", "Suggest a trip", "I need a holiday", "Where to travel next?", "What’s a good place to relax?"],
+            "response": ["How about a trip to the mountains?", "Visit the beach for some relaxation.", "Explore a bustling city like Tokyo.", "How about a cultural trip to Italy?", "You could take a safari in Africa.", "Relax in the Maldives.", "Check out Paris for a romantic getaway.", "Try a hiking adventure in Patagonia.", "Visit historic sites in Greece.", "Take a road trip in the USA."],
+            "context": [""]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["What’s the latest in tech?", "Any tech news?", "Tell me about new gadgets", "What’s trending in technology?", "Latest innovations?", "What’s new in AI?", "Recommend a gadget", "What are the tech updates?", "Latest technology trends?", "What’s happening in tech?"],
+            "response": ["AI is evolving rapidly.", "New gadgets like foldable phones are trending.", "Electric vehicles are taking over.", "Blockchain is making waves.", "Quantum computing is advancing.", "Check out the latest VR headsets.", "Smart home devices are popular.", "Keep an eye on renewable energy tech.", "Space exploration tech is fascinating.", "Wearable tech is growing in popularity."],
+            "context": [""]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Who won the game?", "Tell me sports news", "What’s the score?", "Latest match updates?", "Who’s playing today?", "Any sports updates?", "Who’s leading the league?", "Tell me about football", "What’s new in cricket?", "Sports highlights please"],
+            "response": ["The local team won yesterday.", "Check the latest cricket scores online.", "Football matches are exciting this season.", "The league standings have been updated.", "A thrilling match happened last night!", "New records were set in athletics.", "Tennis championships are ongoing.", "Basketball playoffs are intense.", "Check sports highlights on your favorite app.", "The match was a close call!"],
+            "context": [""]
+        }
+    ]
+}
