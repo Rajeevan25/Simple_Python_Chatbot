@@ -8,8 +8,8 @@ This project implements a simple chatbot using NLTK for text preprocessing and a
 - **Error Handling**: Ensures NLTK resources are downloaded and any missing components are handled gracefully.
 
 ## Files
-1. **`train.py`**: Script for training the chatbot model with pre-defined intents.
-2. **`test.py`**: Script for testing and interacting with the chatbot.
+1. **`train.ipynb`**: Script for training the chatbot model with pre-defined intents.
+2. **`test.ipynb`**: Script for testing and interacting with the chatbot.
 
 ## Requirements
 - Python 3.7+
